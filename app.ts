@@ -25,6 +25,7 @@ console.log("=======>",combinevalues(2,60));
 
 let combineValue;
 
+// noo error beacuse in definition of callback return type of callback function is void
 
 function addAndHandle(n1: number, n2:number, cb:(num: number)=>void){
     const result= n1 +n2;
@@ -33,4 +34,5 @@ function addAndHandle(n1: number, n2:number, cb:(num: number)=>void){
     
     addAndHandle(10,20, (result)=>{
         console.log('----->',result)
+        return result +40;
     })
