@@ -1,4 +1,4 @@
-function add(n1: number, n2: number=0): number {
+function addData(n1: number, n2: number=0): number {
   return n1 + n2;
 }
 
@@ -16,7 +16,7 @@ function printResult(num: number): void {
 // let combinevalues : Function;
 let combinevalues: (a:number, b:number) => number;
 
-combinevalues = add;
+combinevalues = addData;
 // combinevalues = printResult; -> printResult is a fnc of 1 argument, should be with 2 arguents
 
 // combinevalues = 5; -> error ts it should be a func
