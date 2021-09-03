@@ -68,5 +68,17 @@
     /* Advanced Options */
     "skipLibCheck": true,                           /* Skip type checking of declaration files. */
     "forceConsistentCasingInFileNames": true        /* Disallow inconsistently-cased references to the same file. */
-  }
+  },
+  
+  // excluded by default
+  "exclude":[
+    "node_modules"
+  ],
+  "include":[
+    "app.ts",
+    "analytics.ts"
+  ],
+  "files":[
+    "app.ts"
+  ] 
 }
